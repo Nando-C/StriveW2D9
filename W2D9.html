@@ -12,30 +12,24 @@
 <body>
     <h1>Bingo</h1>
 
-    <div id="board">
-
-      <!-- day cells will be inserted here -->
-
-      <!-- <div class="day"><h3>1</h3</div> -->
-
-    </div>
-
+    <div id="board"></div>
+    <br>
     <h1>Lets Play!</h1>
 
     <div id="addMeeting">
 
       <div>
-
-        <h4>Number Drawn</h4>
-
-        <h4 id="meeting-day"></h4>
-
+        <h2>Number Drawn</h2>
+        <h4 id="drawn"></h4>
       </div>
 
       <div>
+        <!-- <h4>Add</h4> -->
+        <button id="restart" onclick="restart()">Restart</button>
+      </div>
 
-        <button onclick="randomNumber()">Draw a Number</button>
-
+      <div>
+        <button onclick="randomNumber()">Draw Number</button>
       </div>
 
     </div>

@@ -7,7 +7,7 @@ body {
     background-color: #292929;
     color: white;
     font-family: "Nunito", sans-serif;
-    max-width: 768px;
+    max-width: 1505px;
     margin: 0 auto;
   }
   
@@ -18,10 +18,10 @@ body {
     border: 1px solid white;
   }
   
-  .day {
+  .cell {
   
     display: inline-block;
-    width: 150px;
+    width: 100px;
     text-align: center;
     min-height: 100px;
   }
@@ -35,6 +35,9 @@ body {
     text-transform: uppercase;
   }
   
+  #drawn {
+      font-size: 2em;
+  }
   #addMeeting {
   
     display: flex;
@@ -52,8 +55,9 @@ body {
     background-color: #00db71;
     color: rgb(80, 80, 80);
     border: 0;
-    padding: 10px;
-    font-weight: bold;
+    padding: 20px;
+    font-weight: 900;
+    font-size: 1.5em;
   }
   
   button {
@@ -67,13 +71,17 @@ body {
   
   .selected {
     border: 1px solid white;
+    background-color: #00ff84;
+    font-weight: 900;
+    color: red;
   }
   
-  .selected h3 {
-    font-weight: bolder;
-  }
+  /* .selected h3 {
+    font-weight: 900;
+    font-size: 2em;
+  } */
   
-  #appointments {
+  #restart {
     margin-top: 50px;
     display: none;
   }
